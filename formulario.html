@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport "  content="width=device-width, initial-scale:1.0">
+            <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link rel="shortcut icon" href= "./assets/nysl_logo.png">
+            <link rel="stylesheet" href="./css/form.css">
+            <title>NYSL Soccer </title>
+    </head>
+    <body> 
+        <header>
+            <div class="contenedor-imghead" id="imghead"> 
+                <img src="./assets/nysl_logo.png" alt="fotologo" class="logo">
+                <h1>Northside Youth Soccer League</h1>
+            </div>    
+        </header>
+        <div class="boton">
+            <a href="formulario.html"><img src="./assets/register1.png" alt="botonreg" class="register"></a>
+        </div>
+        <div class="contenedor-menu" id="barramenu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gameInfo.html">Game Info</a></li>
+                    <li><a href="about.html">About NYSL</a></li>
+                    <li><a href="rules.html">Rules & Policies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="forma">
+            <h2>registration form</h2>
+        </div>
+        <div class="contenedor-cuerpo">
+            <form action="formpost.html" method="GET">
+                <br>
+                <label for="name">Player's First Name: </label>
+                <input type="text" name="Name" id="name" placeholder="write your name here" required autofocus>
+                <label for="lstname" class="right">Last Name: </label>
+                <input type="text" name="Last Name" id="lstname" placeholder="write your last name here" required>
+                <br><br>
+                <label for="street">Street Address: </label>
+                <input type="text" name="Street" class="street" id="street" placeholder="your addres here" maxlength="50" required>
+                <br><br>
+                <label for="campociudad">City: </label>
+                <input type="text" name="City" id="campociudad" placeholder="new york" required>
+                <label for="campocodigo" class="right">Zip Code: </label>
+                <input type="number" name="Zip Code" id="campocodigo" placeholder="10001" required>
+                <br><br>
+                <label for="birth">Birth Date: </label>
+                <input type="date" name="Birth Date" id="birth" placeholder="(mm/dd/yyyy)">
+                <label for="gender" class="right">Gender: </label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br><br>
+                <label for="grade" class="right">Grade:</label>
+                <input type="radio" id="preschool" name="grade" value="preschool">
+                <label for="preschool">Pre-School</label>
+                <input type="radio" id="1st" name="grade" value="1st">
+                <label for="1st">1st</label>
+                <input type="radio" id="2st" name="grade" value="2st">
+                <label for="2st">2st</label>
+                <input type="radio" id="3st" name="grade" value="3st">
+                <label for="3st">3st</label>
+                <input type="radio" id="4st" name="grade" value="4st">
+                <label for="4st">4st</label>
+                <input type="radio" id="5st" name="grade" value="5st">
+                <label for="5st">5st</label>
+                <br><br>
+                <h3>Which elementary school do you live near?</h3>
+                <h4>Closest School:</h4>
+                <div class="cerca">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="Katzenmaier" name="Closest School" value="AJ Katzenmaier">
+                                <label for="Katzenmaier">AJ Katzenmaier</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="Hart" name="Closest School" value="Marjorie P Hart">
+                                <label for="Hart">Marjorie P Hart</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>    
+                                <input type="checkbox" id="Greenbay" name="Closest School" value="Greenbay">
+                                <label for="Greenbay">Greenbay</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="North"  name="Closest School" value="North Elementary">
+                                <label for="North">North Elementary</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="Howard" name="Closest School" value="Howard A Yeager">
+                                <label for="Howard">Howard A Yeager</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="South" name="Closest School" value="South Elementary">
+                                <label for="South">South Elementary</label>
+                            </td>
+                    </table>            
+                </div>                
+                <br><br>
+                <h3>What position(s) do you normally play? (check all that apply)</h3>
+                <div class="tabla1">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="Forward" name="Position" value="Forward">
+                                <label for="Forward">Forward</label>
+                            </td>
+                            <td class="medio">
+                                <input type="checkbox" id="Midfield" name="Position" value="Midfield">
+                                <label for="Midfield">Midfield</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="Defense" name="Position" value="Defense">
+                                <label for="Defense">Defense</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="Goalkeeper" name="Position" value="Goalkeeper">
+                                <label for="Goalkeeper">Goalkeeper</label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>    
+                <br>
+                <h3>Uniform Size:</h3>
+                <div class="tabla2">
+                    <table class="segunda">
+                        <tr>
+                            <td class="primero">
+                                <input type="radio" id="Youthsmall" name="Size" value="Youthsmall">
+                                <label for="Youthsmall">Youth Small</label>
+                            </td>
+                            <td class="primero">
+                                <input type="radio" id="Medium" name="Size" value="Medium">
+                                <label for="Medium">Medium</label>
+                            </td>   
+                        </tr>
+                        <tr>
+                            <td class="segundo">
+                                <input type="radio" id="YouthMedium" name="Size" value="YouthMedium">
+                                <label for="YouthMedium">Youth Medium</label>
+                            </td>
+                            <td class="largo">
+                                <input type="radio" id="Large" name="Size" value="Large">
+                                <label for="Large">Large</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="otro">
+                                <input type="radio" id="YouthLarge" name="Size" value="YouthLarge">
+                                <label for="YouthLarge">Youth Large</label>
+                            </td>
+                            <td class="otro">
+                                <input type="radio" id="ExtraLarge"  name="Size" value="ExtraLarge">
+                                <label for="ExtraLarge">Extra-Large</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="Small">
+                                <input type="radio" id="Small" name="Size" value="Small">
+                                <label for="Small">Small</label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <h3>Permission to Play</h3>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of
+                    the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with
+                    soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities,
+                    I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel
+                    and volunteers,including the facilities used for practices and games, against any claim by or on behalf of
+                    the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from
+                    NYSL sponsored activities,which transportation
+                    By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge
+                    that I have read the cancellation policy and agree to its terms.</p>
+                <label for="parentname">Parent/Guardian name: </label>
+                <input type="text" name="Parent/Guardian name" class="parentname" id="parentname" placeholder="you name here">
+                <label for="date">Date: </label>
+                <input type="datetime-local" name="date of register" id="date" placeholder="(mm/dd/yyyy)">
+                <br>
+                <input type="checkbox" id="agree" class="acepto" name="Permission" value="agree" required>
+                <label for="agree">i agree to the terms of permission to play</label>
+                <br><br>
+                <input type="submit" class="btn" value="Submit">
+            </form>
+            <br><br><br>
+        </div>
+        <footer>        
+            <p class="foot"> Developed by Guillermo Mancilla</p>
+            <p class="foot"> making your dreamed webs come true</p>
+        </footer>        
+    </body>   
+</html>

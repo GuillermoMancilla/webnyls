@@ -1,0 +1,178 @@
+body {
+    margin: 0px;
+    background-color: rgba(114, 170, 40, 0.548);
+    overflow: scroll;
+}
+.contenedor-imghead {
+    height: 250px;
+    width: 100%;
+    background: url("../assets/soccer+banner.png");
+    background-size: cover;
+    margin-top: -20px;
+}
+    
+h1 {
+    margin-left: 250px;
+    margin-top: -105px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+    
+.logo{
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.boton{
+    float: right;
+    margin-right: 9%;
+    margin-top: -140px;
+    padding-bottom: 80px;
+}
+    
+.contenedor-menu {
+    background-color: black;
+    height: 35px;
+    width: 100%;
+    margin-top: -20px;
+}
+    
+nav ul li {
+    display: inline-flex;
+    list-style-type: none;
+    float: left;
+    margin-top: 0px;
+    margin-right: 15px;
+}
+    
+li a {
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding-right: 10px;
+    color: lightcyan; 
+}
+   
+li a:hover{
+    background-color: darkgreen;
+}
+
+.forma {
+    background-color: rgb(7, 100, 7);
+    margin-top: -20px;
+    padding: 0px;
+    height: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(3, 3, 3);
+    padding-top: 10px;
+}
+
+.contenedor-cuerpo {
+    background: linear-gradient(rgba(7, 100, 7),rgba(36, 230, 10, 0.637)),url("../assets/SAM_0191-2.jpg") ;
+    background-size: cover;
+}
+
+form {
+    width: 800px;
+	background: rgb(95, 160, 100);
+	padding: 20px;
+    margin: auto;
+    border-radius: 4px;
+    text-align: center;
+}
+
+input[type=text] {
+    border-bottom: 2px black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+input[type=number] {
+    border-bottom: 2px black;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+input[type=date] {
+    border-bottom: 2px black;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+input[type=datetime-local] {
+    border-bottom: 2px black;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.cerca {
+    text-align: left;
+    margin-left: 230px;
+}
+
+.tabla1 {
+    text-align: left;
+    margin-left: 250px;
+}
+
+.tabla2  {
+    text-align: left;
+    margin-left: 250px;
+}
+
+.right {
+    margin-left: 40px;
+} 
+
+input[type=radio]{
+    margin-left: 15px;
+}
+
+input[type=checkbox]{
+    margin-left: 25px;
+}
+
+.street {
+    width: 500px;
+}
+
+.parentname {
+    width: 300px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.acepto {
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
+footer {
+    padding-top: 20px;
+    background: linear-gradient(rgb(50, 209, 29, 0.473),rgba(7, 77, 7));
+    height: 120px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: 'Merriweather', serif;
+    font-size: 15px; 
+    text-align: center;
+}
